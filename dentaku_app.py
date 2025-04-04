@@ -193,7 +193,7 @@ def main():
             if st.session_state.display and st.session_state.display[-1] not in '+-×÷(':
                 st.session_state.display += "×"
                 st.rerun() # <<< 追加
-        if st.button(""-""):
+        if st.button("-"):
              # マイナスは数字や括弧の後、または式の先頭で許可する例
             if st.session_state.display and st.session_state.display[-1] not in '+-×÷(':
                  st.session_state.display += "-"
