@@ -13,7 +13,7 @@ def setup_page():
         .stApp {
             /* 背景色や全体の文字色はお好みで調整してください */
              background-color: black; 
-             color: white; 
+             color: red; 
         }
         .stButton>button {
             width: 100%; /* 列幅いっぱいに広げる */
