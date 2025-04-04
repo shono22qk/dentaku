@@ -12,8 +12,8 @@ def setup_page():
         <style>
         .stApp {
             /* 背景色や全体の文字色はお好みで調整してください */
-             background-color: black; 
-             color: red; 
+             background-color: white; 
+             color: black; 
         }
         .stButton>button {
             width: 100%; /* 列幅いっぱいに広げる */
@@ -21,6 +21,10 @@ def setup_page():
             margin: 4px 0; /* 上下のマージンを調整 */
             font-size: 20px;
             border-radius: 5px; /* 角を少し丸める */
+            background-color: white;
+            color: black;
+            border: 1px solid #ccc; /* 枠線を追加 */
+
         }
         .display-area {
             background-color: #f0f0f0; /* 表示エリア背景色 */
