@@ -12,7 +12,7 @@ def setup_page():
         <style>
         .stApp {
             /* 背景色や全体の文字色はお好みで調整してください */
-            /* background-color: white; */
+             background-color: white; 
             /* color: white; */
         }
         .stButton>button {
