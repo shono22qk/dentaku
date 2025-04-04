@@ -12,8 +12,8 @@ def setup_page():
         <style>
         .stApp {
             /* 背景色や全体の文字色はお好みで調整してください */
-             background-color: white; 
-            /* color: white; */
+             background-color: black; 
+             color: white; 
         }
         .stButton>button {
             width: 100%; /* 列幅いっぱいに広げる */
