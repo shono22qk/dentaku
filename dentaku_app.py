@@ -12,7 +12,7 @@ def setup_page():
         <style>
         .stApp {
             background-color: white;
-            color: black;
+            color: white;
         }
         .stButton>button {
             width: 60px;
